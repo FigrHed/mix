@@ -1352,7 +1352,7 @@
 ,
 					"style" : "",
 					"text" : "pattr",
-					"varname" : "u959018819"
+					"varname" : "u194017650"
 				}
 
 			}
@@ -2271,7 +2271,7 @@
 ,
 					"style" : "",
 					"text" : "pattr",
-					"varname" : "u662012312"
+					"varname" : "u933002521"
 				}
 
 			}
@@ -2368,7 +2368,7 @@
 ,
 					"style" : "",
 					"text" : "pattr",
-					"varname" : "u852006122"
+					"varname" : "u944002501"
 				}
 
 			}
@@ -2405,7 +2405,7 @@
 ,
 					"style" : "",
 					"text" : "pattr",
-					"varname" : "u512004082"
+					"varname" : "u144002503"
 				}
 
 			}
@@ -2442,7 +2442,7 @@
 ,
 					"style" : "",
 					"text" : "pattr",
-					"varname" : "u032005272"
+					"varname" : "u342002500"
 				}
 
 			}
@@ -2479,7 +2479,7 @@
 ,
 					"style" : "",
 					"text" : "pattr",
-					"varname" : "u400006169"
+					"varname" : "u026002507"
 				}
 
 			}
@@ -3023,11 +3023,11 @@
 									"id" : "obj-8",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 104.5, 124.0, 29.5, 19.0 ],
+									"numoutlets" : 3,
+									"outlettype" : [ "int", "bang", "int" ],
+									"patching_rect" : [ 104.5, 124.0, 40.0, 19.0 ],
 									"style" : "",
-									"text" : "t b 0"
+									"text" : "t 0 b 0"
 								}
 
 							}
@@ -3303,7 +3303,7 @@
 									"destination" : [ "obj-1", 1 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-8", 0 ]
+									"source" : [ "obj-8", 1 ]
 								}
 
 							}
@@ -3312,7 +3312,7 @@
 									"destination" : [ "obj-153", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-8", 1 ]
+									"source" : [ "obj-8", 0 ]
 								}
 
 							}
@@ -3321,7 +3321,7 @@
 									"destination" : [ "obj-20", 0 ],
 									"disabled" : 0,
 									"hidden" : 0,
-									"source" : [ "obj-8", 1 ]
+									"source" : [ "obj-8", 2 ]
 								}
 
 							}
@@ -5662,48 +5662,48 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-118::obj-167" : [ "grid", "grid", 0 ],
-			"obj-118::obj-244" : [ "SendA", "Send A", 0 ],
-			"obj-118::obj-227" : [ "gain", "gain", 0 ],
-			"obj-15::obj-209" : [ "rec_q[1]", "rec quant", 0 ],
-			"obj-118::obj-235" : [ "macro6", "Macro 6", 0 ],
-			"obj-118::obj-151" : [ "snapto", "snapto", 0 ],
-			"obj-15::obj-34" : [ "rec_length", "rec length", 0 ],
-			"obj-118::obj-239" : [ "macro2", "Macro 2", 0 ],
-			"obj-15::obj-159" : [ "punch-in", "punch-in", 0 ],
-			"obj-15::obj-16" : [ "punchon", "punchon", 0 ],
-			"obj-15::obj-135" : [ "recpre[1]", "rec-prev", 0 ],
-			"obj-118::obj-237" : [ "macro4", "Macro 4", 0 ],
-			"obj-15::obj-138" : [ "recordnext[1]", "rec-next", 0 ],
-			"obj-118::obj-234" : [ "macro7", "Macro 7", 0 ],
-			"obj-118::obj-72" : [ "SendC", "Send C", 0 ],
-			"obj-118::obj-238" : [ "macro3", "Macro 3", 0 ],
-			"obj-118::obj-222" : [ "pan[15]", "pan", 0 ],
 			"obj-15::obj-29" : [ "loop", "loop", 0 ],
-			"obj-118::obj-236" : [ "macro5", "Macro 5", 0 ],
+			"obj-118::obj-72" : [ "SendC", "Send C", 0 ],
+			"obj-15::obj-34" : [ "rec_length", "rec length", 0 ],
 			"obj-15::obj-142" : [ "recgo[1]", "record go", 0 ],
-			"obj-118::obj-240" : [ "macro1", "Macro 1", 0 ],
-			"obj-118::obj-150" : [ "mousemode", "mousemode", 0 ],
-			"obj-118::obj-233" : [ "macro8", "Macro 8", 0 ],
+			"obj-118::obj-234" : [ "macro7", "Macro 7", 0 ],
+			"obj-15::obj-135" : [ "recpre[1]", "rec-prev", 0 ],
+			"obj-118::obj-239" : [ "macro2", "Macro 2", 0 ],
 			"obj-118::obj-241" : [ "SendD", "Send D", 0 ],
-			"obj-118::obj-243" : [ "SendB", "Sends", 0 ]
+			"obj-118::obj-243" : [ "SendB", "Sends", 0 ],
+			"obj-118::obj-233" : [ "macro8", "Macro 8", 0 ],
+			"obj-118::obj-167" : [ "grid", "grid", 0 ],
+			"obj-118::obj-238" : [ "macro3", "Macro 3", 0 ],
+			"obj-15::obj-209" : [ "rec_q[1]", "rec quant", 0 ],
+			"obj-118::obj-227" : [ "gain", "gain", 0 ],
+			"obj-118::obj-244" : [ "SendA", "Send A", 0 ],
+			"obj-15::obj-159" : [ "punch-in", "punch-in", 0 ],
+			"obj-118::obj-151" : [ "snapto", "snapto", 0 ],
+			"obj-15::obj-16" : [ "punchon", "punchon", 0 ],
+			"obj-118::obj-237" : [ "macro4", "Macro 4", 0 ],
+			"obj-118::obj-222" : [ "pan[15]", "pan", 0 ],
+			"obj-15::obj-138" : [ "recordnext[1]", "rec-next", 0 ],
+			"obj-118::obj-236" : [ "macro5", "Macro 5", 0 ],
+			"obj-118::obj-235" : [ "macro6", "Macro 6", 0 ],
+			"obj-118::obj-240" : [ "macro1", "Macro 1", 0 ],
+			"obj-118::obj-150" : [ "mousemode", "mousemode", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "activerow.maxpat",
-				"bootpath" : "~/Documents/Max 7/Max for Live Devices/re[mix] Project/patchers",
+				"bootpath" : "~/monome apps/mix/re[mix]",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rec.maxpat",
-				"bootpath" : "~/Documents/Max 7/Max for Live Devices/re[mix] Project/patchers",
+				"bootpath" : "~/monome apps/mix/re[mix]",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "turnitoff.maxpat",
-				"bootpath" : "~/Documents/Max 7/Max for Live Devices/re[mix] Project/patchers",
+				"bootpath" : "~/monome apps/mix/re[mix]",
 				"type" : "JSON",
 				"implicit" : 1
 			}
