@@ -57,6 +57,25 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
+					"elementcolor" : [ 0.23, 0.23, 0.23, 1.0 ],
+					"fgcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
+					"id" : "obj-192",
+					"maxclass" : "incdec",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 266.916656, 80.5, 20.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 520.0, 19.0, 12.0, 18.0 ],
+					"style" : "",
+					"varname" : "semi+-[3]"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 0.0,
 					"bgcolor" : [ 0.2, 0.2, 0.2, 0.0 ],
 					"border" : 1,
@@ -247,7 +266,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto pre::gain",
-					"varname" : "u335000386"
+					"varname" : "u923005444"
 				}
 
 			}
@@ -1630,7 +1649,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::endms",
-									"varname" : "u744000441"
+									"varname" : "u328005499"
 								}
 
 							}
@@ -1651,7 +1670,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::startms",
-									"varname" : "u104000443"
+									"varname" : "u830005501"
 								}
 
 							}
@@ -1832,7 +1851,7 @@
 ,
 					"style" : "",
 					"text" : "pattr @bindto mode",
-					"varname" : "u504000447"
+					"varname" : "u694005505"
 				}
 
 			}
@@ -4090,7 +4109,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::endms",
-									"varname" : "u712000468"
+									"varname" : "u042005526"
 								}
 
 							}
@@ -4111,7 +4130,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::startms",
-									"varname" : "u745000470"
+									"varname" : "u984005528"
 								}
 
 							}
@@ -5434,7 +5453,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::group",
-									"varname" : "u120000492"
+									"varname" : "u500005550"
 								}
 
 							}
@@ -9310,25 +9329,6 @@
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9,
 					"varname" : "transp"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.866667, 0.866667, 0.866667, 0.0 ],
-					"elementcolor" : [ 0.23, 0.23, 0.23, 1.0 ],
-					"fgcolor" : [ 0.6, 0.6, 0.6, 1.0 ],
-					"id" : "obj-192",
-					"maxclass" : "incdec",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 323.75, 104.0, 20.0, 20.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 520.0, 19.0, 12.0, 18.0 ],
-					"style" : "",
-					"varname" : "semi+-[3]"
 				}
 
 			}
@@ -13530,7 +13530,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::group",
-									"varname" : "u083000570"
+									"varname" : "u410005628"
 								}
 
 							}
@@ -15823,7 +15823,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::file",
-									"varname" : "u816000589"
+									"varname" : "u492005647"
 								}
 
 							}
@@ -16082,7 +16082,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::octave::oct @autorestore 0",
-									"varname" : "u248000600"
+									"varname" : "u530005658"
 								}
 
 							}
@@ -16103,7 +16103,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::steps @autorestore 0",
-									"varname" : "u882000602"
+									"varname" : "u200005660"
 								}
 
 							}
@@ -16155,7 +16155,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::menu @autorestore 0",
-									"varname" : "u288000604"
+									"varname" : "u205005662"
 								}
 
 							}
@@ -16392,7 +16392,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::rev @autorestore 0",
-									"varname" : "u939000606"
+									"varname" : "u357005664"
 								}
 
 							}
@@ -16413,7 +16413,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::group @autorestore 0",
-									"varname" : "u271000608"
+									"varname" : "u803005666"
 								}
 
 							}
@@ -16434,7 +16434,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::mode @autorestore 0",
-									"varname" : "u776000610"
+									"varname" : "u964005668"
 								}
 
 							}
@@ -16455,7 +16455,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::endms @autorestore 0",
-									"varname" : "u053000612"
+									"varname" : "u915005670"
 								}
 
 							}
@@ -16476,7 +16476,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::startms @autorestore 0",
-									"varname" : "u599000614"
+									"varname" : "u713005672"
 								}
 
 							}
@@ -16490,14 +16490,14 @@
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 239.0, 293.5, 167.0, 17.0 ],
-									"restore" : [ 0.0 ],
+									"restore" : [ 0. ],
 									"saved_object_attributes" : 									{
 										"parameter_enable" : 0
 									}
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::speed @autorestore 0",
-									"varname" : "u282000616"
+									"varname" : "u599005674"
 								}
 
 							}
@@ -16518,7 +16518,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::transp @autorestore 0",
-									"varname" : "u337000618"
+									"varname" : "u293005676"
 								}
 
 							}
@@ -19878,7 +19878,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::steps",
-									"varname" : "u444000643"
+									"varname" : "u801005701"
 								}
 
 							}
@@ -20054,7 +20054,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::transp",
-									"varname" : "u121000646"
+									"varname" : "u983005704"
 								}
 
 							}
@@ -20103,7 +20103,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::steps",
-									"varname" : "u690000649"
+									"varname" : "u915005707"
 								}
 
 							}
@@ -21559,7 +21559,7 @@
 ,
 									"style" : "",
 									"text" : "pattr @bindto parent::pre::pl",
-									"varname" : "u055000666"
+									"varname" : "u884005724"
 								}
 
 							}
@@ -24613,9 +24613,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-1" : [ "live.grid[4]", "live.grid", 0 ],
 			"obj-328" : [ "#1octave", "#1octave", 0 ],
-			"obj-31::obj-54" : [ "pan", "pan", 0 ]
+			"obj-31::obj-54" : [ "pan", "pan", 0 ],
+			"obj-1" : [ "live.grid[4]", "live.grid", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
