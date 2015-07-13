@@ -137,7 +137,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 192.25, 193.0, 172.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 1.0, 146.634094, 22.0 ],
+					"presentation_rect" : [ 2.0, 1.0, 149.634094, 22.0 ],
 					"style" : "",
 					"textcolor" : [ 0.701961, 0.701961, 0.701961, 1.0 ]
 				}
@@ -271,7 +271,7 @@
 					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"focusbordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"fontface" : 0,
-					"fontname" : "Helvetica Neue Bold",
+					"fontname" : "Helvetica Neue Condensed Bold",
 					"fontsize" : 9.0,
 					"id" : "obj-90",
 					"maxclass" : "live.numbox",
@@ -279,9 +279,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 979.078979, 658.0, 36.0, 14.0 ],
+					"patching_rect" : [ 979.078979, 658.0, 32.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 246.618408, 4.0, 20.5, 14.0 ],
+					"presentation_rect" : [ 246.618408, 4.0, 20.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[4]",
@@ -306,7 +306,7 @@
 					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"focusbordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"fontface" : 0,
-					"fontname" : "Helvetica Neue Bold",
+					"fontname" : "Helvetica Neue Condensed Bold",
 					"fontsize" : 9.0,
 					"id" : "obj-89",
 					"maxclass" : "live.numbox",
@@ -314,9 +314,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 958.53949, 658.0, 36.0, 14.0 ],
+					"patching_rect" : [ 958.53949, 658.0, 32.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 228.078934, 4.0, 20.5, 14.0 ],
+					"presentation_rect" : [ 228.078934, 4.0, 20.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[3]",
@@ -341,7 +341,7 @@
 					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"focusbordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"fontface" : 0,
-					"fontname" : "Helvetica Neue Bold",
+					"fontname" : "Helvetica Neue Condensed Bold",
 					"fontsize" : 9.0,
 					"id" : "obj-81",
 					"maxclass" : "live.numbox",
@@ -349,9 +349,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 938.0, 658.0, 36.0, 14.0 ],
+					"patching_rect" : [ 938.0, 658.0, 32.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 208.539459, 4.0, 20.5, 14.0 ],
+					"presentation_rect" : [ 208.539459, 4.0, 20.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[2]",
@@ -376,7 +376,7 @@
 					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"focusbordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"fontface" : 0,
-					"fontname" : "Helvetica Neue Bold",
+					"fontname" : "Helvetica Neue Condensed Bold",
 					"fontsize" : 9.0,
 					"id" : "obj-78",
 					"maxclass" : "live.numbox",
@@ -384,9 +384,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 923.0, 643.0, 36.0, 14.0 ],
+					"patching_rect" : [ 923.0, 643.0, 32.0, 14.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 189.999985, 4.0, 20.5, 14.0 ],
+					"presentation_rect" : [ 189.999985, 4.0, 20.0, 14.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
