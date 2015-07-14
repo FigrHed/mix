@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 358.0, 186.0, 408.0, 620.0 ],
+		"rect" : [ 62.0, 94.0, 723.0, 670.0 ],
 		"bgcolor" : [ 0.15, 0.15, 0.15, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,14 +39,27 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-103",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 104.0, 374.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "i"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-110",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 192.25, 340.0, 102.0, 22.0 ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 192.25, 340.0, 184.0, 22.0 ],
 					"style" : "",
-					"text" : "if $i1 > 4 then $i1"
+					"text" : "if $i1 > 4 then $i1 else out2 bang"
 				}
 
 			}
@@ -473,17 +486,16 @@
 					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"focusbordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"fontface" : 0,
-					"fontname" : "Helvetica Neue Condensed Bold",
-					"fontsize" : 9.0,
+					"fontname" : "Futura Condensed Medium",
 					"id" : "obj-90",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 979.078979, 658.0, 32.0, 14.0 ],
+					"patching_rect" : [ 979.078979, 658.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 247.618408, 4.0, 18.0, 14.0 ],
+					"presentation_rect" : [ 244.618408, 3.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[4]",
@@ -508,17 +520,16 @@
 					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"focusbordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"fontface" : 0,
-					"fontname" : "Helvetica Neue Condensed Bold",
-					"fontsize" : 9.0,
+					"fontname" : "Futura Condensed Medium",
 					"id" : "obj-89",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 958.53949, 658.0, 32.0, 14.0 ],
+					"patching_rect" : [ 958.53949, 658.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 229.078934, 4.0, 18.0, 14.0 ],
+					"presentation_rect" : [ 226.078934, 3.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[3]",
@@ -543,17 +554,16 @@
 					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"focusbordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"fontface" : 0,
-					"fontname" : "Helvetica Neue Condensed Bold",
-					"fontsize" : 9.0,
+					"fontname" : "Futura Condensed Medium",
 					"id" : "obj-81",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 938.0, 658.0, 32.0, 14.0 ],
+					"patching_rect" : [ 938.0, 658.0, 32.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 209.539459, 4.0, 18.0, 14.0 ],
+					"presentation_rect" : [ 206.539459, 3.0, 24.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox[2]",
@@ -578,17 +588,16 @@
 					"bordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"focusbordercolor" : [ 0.74902, 0.74902, 0.74902, 0.0 ],
 					"fontface" : 0,
-					"fontname" : "Helvetica Neue Condensed Bold",
-					"fontsize" : 9.0,
+					"fontname" : "Futura Condensed Medium",
 					"id" : "obj-78",
 					"maxclass" : "live.numbox",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 923.0, 643.0, 32.0, 14.0 ],
+					"patching_rect" : [ 923.0, 643.0, 31.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 190.999985, 4.0, 18.0, 14.0 ],
+					"presentation_rect" : [ 188.999985, 3.0, 22.0, 16.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "live.numbox",
@@ -17321,6 +17330,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-103", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-100", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -17451,6 +17469,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-110", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-103", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-110", 0 ]
 				}
 
 			}
@@ -18814,22 +18850,22 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-85" : [ "preset>", "preset>", 0 ],
-			"obj-19" : [ "umenu", "umenu", 0 ],
+			"obj-78" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-86" : [ "preset<", "preset<", 0 ],
+			"obj-81" : [ "live.numbox[2]", "live.numbox", 0 ],
 			"obj-77" : [ "live.menu", "live.menu", 0 ],
 			"obj-102" : [ "pattern3", "pattern3", 0 ],
-			"obj-97" : [ "live.text[1]", "live.text", 0 ],
-			"obj-89" : [ "live.numbox[3]", "live.numbox", 0 ],
-			"obj-43::obj-47::obj-43" : [ "setname", "setname", 0 ],
-			"obj-82" : [ "preset-", "preset-", 0 ],
-			"obj-81" : [ "live.numbox[2]", "live.numbox", 0 ],
-			"obj-86" : [ "preset<", "preset<", 0 ],
-			"obj-58" : [ "pattern4", "pattern4", 0 ],
-			"obj-76" : [ "preset+", "preset+", 0 ],
 			"obj-105" : [ "pattern2", "pattern2", 0 ],
-			"obj-78" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-97" : [ "live.text[1]", "live.text", 0 ],
+			"obj-82" : [ "preset-", "preset-", 0 ],
+			"obj-90" : [ "live.numbox[4]", "live.numbox", 0 ],
+			"obj-58" : [ "pattern4", "pattern4", 0 ],
 			"obj-95" : [ "live.text", "live.text", 0 ],
-			"obj-90" : [ "live.numbox[4]", "live.numbox", 0 ]
+			"obj-85" : [ "preset>", "preset>", 0 ],
+			"obj-76" : [ "preset+", "preset+", 0 ],
+			"obj-19" : [ "umenu", "umenu", 0 ],
+			"obj-43::obj-47::obj-43" : [ "setname", "setname", 0 ],
+			"obj-89" : [ "live.numbox[3]", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [  ],
