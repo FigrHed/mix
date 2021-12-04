@@ -1,4 +1,4 @@
-Max 7 / Live 9.2 or later required. 
+  Max 7 / Live 9.2 or later required. 
 old Max 6 version is here https://github.com/el-quinto/mix/releases.
 
 re:mix is essentially mlr, finely tuned and greatly expanded upon for a new life in max for live. it takes inspiration from many variations released over the years, particularly the mlr3 preview, mlrv, and mlr_cyst.
@@ -53,7 +53,7 @@ Mods 3+4 (previous+next preset) = Record Go
 12 (with mod 3 held) - octave page
 (pages are momentary if you keep holding mod 3 after selecting)
 15 (with mod 3 held) - set  next tempo 
-
+ 
 11 (with mod 4 held) - record length / record select page
 12 (with mod 4 held) - file page
 15 (with mod 4 held) - punch-in
